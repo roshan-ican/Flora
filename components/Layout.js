@@ -20,6 +20,21 @@ export default function Layout({ title, children }) {
               </a>
             </Link>
             <div>
+              <Link legacyBehavior href="/plants">
+                <a id="link" className="p-2">
+                  Plants
+                </a>
+              </Link>
+              <Link legacyBehavior href="/plants">
+                <a id="link" className="p-2">
+                  Pots
+                </a>
+              </Link>
+              <Link legacyBehavior href="/plants">
+                <a id="link" className="p-2">
+                  Seeds
+                </a>
+              </Link>
               <Link legacyBehavior href="/cart">
                 <a id="link" className="p-2">
                   Cart{" "}
