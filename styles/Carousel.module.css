@@ -1,0 +1,24 @@
+.im {
+    display: block;
+    width: 100vw;
+    height: 101vh;
+}
+
+.carouselIndicators {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+@media (max-width: 48em) {
+    
+    .responsiveIma{
+        display: block;
+        padding-top: 6.8em;
+    }
+    .im {
+        display: block;
+        width: 100vw;
+        height: 40vh;
+    }
+}
